@@ -1,0 +1,25 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dhx_cal_event.immediate div {
+  background-color: blue;
+  color: black;
+}
+
+.dhx_cal_event.break div {
+  background-color: green;
+  color: black;
+}
+
+.dhx_cal_event.lunch div {
+  background-color: light-green;
+  color: black;
+}
+
+.dhx_event_resize {
+  display: none;
+}
