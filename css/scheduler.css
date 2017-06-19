@@ -5,19 +5,26 @@ html, body {
   overflow: hidden;
 }
 
-.dhx_cal_event.immediate div {
-  background-color: blue;
-  color: black;
+.dhx_cal_event > div.dhx_title,
+.dhx_cal_event > div.dhx_body
+{
+  color: #000000;
 }
 
-.dhx_cal_event.break div {
-  background-color: green;
-  color: black;
+.dhx_cal_event.immediate > div {
+  background-color: #0000FF;
 }
 
-.dhx_cal_event.lunch div {
-  background-color: light-green;
-  color: black;
+.dhx_cal_event.break > div {
+  background-color: #FF8080;
+}
+
+.dhx_cal_event.lunch > div {
+  background-color: #A0E0E0;
+}
+
+.dhx_cal_event.coaching > div {
+  background-color: #FF7F50;
 }
 
 .dhx_event_resize {
