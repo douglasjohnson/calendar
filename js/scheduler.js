@@ -35,8 +35,8 @@ var authenticate = function (username, password) {
             user: username,
             password: password
         };
-    $.post({
-        url: "/wfo/rest/core-api/auth/token",
+    $.ajax("/wfo/rest/core-api/auth/token", {
+        type: "POST",
         data: JSON.stringify(data),
         contentType: "application/json",
         dataType: "json"
